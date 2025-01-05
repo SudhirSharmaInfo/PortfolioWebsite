@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- <div class="loader-container" id="preloader">
+            <div class="loader">
+                <div class="loaderspin"></div>
+                <div class="loaderspin"></div>
+                <div class="loaderspin"></div>
+                <span class="loading">Loading...</span>
+            </div>
+        </div> -->
+    <div class="container-nav">
+        <div class="container-nav-res">
+            <div class="portfolio-sec">
+                <div class="portfolio-sec-name">Sudhir Sharma</div>
+                <div class="darkmode"></div>
+            </div>
+            <div class="navbar-option">
+                <div class="navbar-home navlist"><a href="#homepage">Home</a></div>
+                <div class="navbar-about navlist"><a href="#aboutpage">About</a></div>
+                <div class="navbar-services navlist"><a href="#servicepage">Services</a></div>
+                <div class="navbar-portfolio navlist"><a href="#portfoliopage">Portfolio</a></div>
+                <div class="navbar-contact navlist"><a href="#contactpage">Contact</a></div>
+            </div>
+            <div class="mobile-navbar-ham" onclick="mobilenav()">☰</div>
+            <div class="mobile-navbar-option-main" id="mobile-navbar-option-main">
+                <div class="mobile-navbar-option">
+                    <div class="mobilenavbar-name"><span onclick="mobileclose()">Sudhir Sharma</span>
+                        <p onclick="mobileclose()">✕</p>
+                    </div>
+                    <div class="mobilenavbar-home mobilenavlist"><a href="#homepage" onclick="mobileclose()">Home</a>
+                    </div>
+                    <div class="mobilenavbar-about mobilenavlist"><a href="#aboutpage" onclick="mobileclose()">About</a>
+                    </div>
+                    <div class="mobilenavbar-services mobilenavlist"><a href="#servicepage"
+                            onclick="mobileclose()">Services</a></div>
+                    <div class="mobilenavbar-portfolio mobilenavlist"><a href="#portfoliopage"
+                            onclick="mobileclose()">Portfolio</a></div>
+                    <div class="mobilenavbar-contact mobilenavlist"><a href="#contactpage"
+                            onclick="mobileclose()">Contact</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-home" id="homepage">
+        <div class="container-home-res">
+            <div class="home-contant-box">
+                <div class="contant-text-line1">Hello,It's Me</div>
+                <div class="contant-text-line2">SUDHIR SHARMA</div>
+                <div class="contant-text-line3">I'm a <mark class="Marking"
+                        style="background-color: rgba(255, 255, 255, 0);"></mark> </div>
+                <div class="contant-text-line4">Let's create something awesome.</div>
+                <div class="contant-text-line5">Having focus on <b>Web Development</b> and <b>Graphic Design</b> Mainly
+                    Branding. I
+                    am always ready for new proposals. You can learn about me and my work in this CV!
+                </div>
+
+                <div class="contant-icons">
+                    <div class="contant-icons-res">
+                        <a href="https://www.linkedin.com/in/sudhir-sharma-86733821a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BArGTlgFtS6Wy%2F0KE839ogg%3D%3D"
+                            class="icon-anchor" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i></a>
+
+                        <a href="" class="icon-anchor"><i class="fa-brands fa-square-behance fa-xl"
+                                style="color: #000000;"></i></a>
+
+                        <a href="" class="icon-anchor"><i class="fa-solid fa-envelope fa-xl"
+                                style="color: #000000;"></i></a>
+
+                        <a href="" class="icon-anchor"><i class="fa-brands fa-square-whatsapp fa-xl"
+                                style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="home-download-cv"></div> -->
+                <a href="Admit Card.pdf" download class="home-download-cv" target="_blank">Download CV</a>
+            </div>
+            <div class="home-image-box">
+                <div class="home-image"><img src="" alt=""></div>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="#" class="to-top"><i class="fa-solid fa-angles-up"></i></a>
+
+
+    <div class="about-section active" id="aboutpage">
+        <div class="about-section-res">
+            <div class="about-left-section">
+                <h2>Why Hire Me?</h2>
+                <p class="about-desc">I am a web developer with a passion for creating fast, user-friendly websites that
+                    look great on any device. With expertise in HTML, CSS, JavaScript, and frameworks like Angular JS,
+                    I’ve
+                    built dynamic & responsive websites. My strong
+                    problem-solving skills and commitment to delivering pixel-perfect designs make me an ideal candidate
+                    to bring your ideas to life.</p>
+                <button class="about-btn active">About Me</button>
+                <button class="about-btn">Education</button>
+                <button class="about-btn">Skills</button>
+                <button class="about-btn">Experience</button>
+            </div>
+
+            <div class="about-right-section active">
+                <div class="about-heading">About Me</div>
+                <div class="about-descr">I'm Sudhir Sharma & I'm from Delhi. I'm full Stack Developer & Graphic
+                    Designer.
+                    Now I'm currently seeking roles where i can utilize my skills. Though i don't have any real life
+                    working experience. I'he had a lot of exposure to the IT & Software field. My goal is to build a
+                    successful career as a Full Stack Developer, moving forward in my career. I have to expand my
+                    experience across different industries. I'm a good learner and team player that's all about me.
+                </div>
+                <div class="about-item-box">
+                    <div class="about-list">
+                        <p>Name : <span>Sudhir Sharma</span></p>
+                    </div>
+                    <div class="about-list">
+                        <p>Gender : <span>Male</span></p>
+                    </div>
+                    <div class="about-list">
+                        <p>DOB : <span>03 May 2002</span></p>
+                    </div>
+                    <div class="about-list">
+                        <p>Status : <span>Unmarried</span></p>
+                    </div>
+                    <div class="about-list">
+                        <p>City : <span>New Delhi</span></p>
+                    </div>
+                    <div class="about-list">
+                        <p>Language : <span>Hindi,English</span></p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="about-right-section">
+                <div class="about-heading">Education</div>
+                <div class="about-descr">My academic journey has equipped me with a strong. I’m continually expanding my
+                    knowledge through degree certifications and self-learning
+                    to stay ahead in this dynamic field.</div>
+                <div class="education-item-box">
+                    <div class="education-list">
+                        <p class="year">2016-2017</p>
+                        <h3>Matric</h3>
+                        <p class="comapny">C.B.S.E</p>
+                        <p>First Class with Distinction</p>
+                    </div>
+                    <div class="education-list">
+                        <p class="year">2018-2019</p>
+                        <h3>Enter</h3>
+                        <p class="comapny">C.B.S.E</p>
+                        <p>First Class with Distinction</p>
+                    </div>
+                    <div class="education-list">
+                        <p class="year">2019-2022</p>
+                        <h3>Graduation</h3>
+                        <p class="comapny">SOL-DU</p>
+                        <p>First Class/First Division</p>
+                    </div>
+                    <div class="education-list">
+                        <p class="year">2023-2024</p>
+                        <h3>Full Stack Web-Development</h3>
+                        <p class="comapny">Arena Animation-Aptech</p>
+                        <p></p>
+                    </div>
+                    <div class="education-list">
+                        <p class="year">2023-2024</p>
+                        <h3>Graphic Design</h3>
+                        <p class="comapny">Arena Animation-Aptech</p>
+                        <p></p>
+                    </div>
+                    <div class="education-list">
+                        <p class="year">2020-2021</p>
+                        <h3>COPA</h3>
+                        <p class="comapny">ITI PUSA</p>
+                        <p>First Class with Distinction</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="about-right-section">
+                <div class="about-heading">Skills</div>
+                <div class="about-descr">I possess a strong technical foundation complemented by hands-on experience in
+                    developing scalable web applications. My skills span both front-end and back-end development,
+                    ensuring seamless user experiences and efficient systems.</div>
+                <div class="skill-item-box">
+                    <div class="skill-list">
+                        <i class="fa-brands fa-html5 fa-2xl" style="color: #000000;"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-list">
+                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #000000;"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-list">
+                        <i class="fa-brands fa-js fa-2xl" style="color: #000000;"></i>
+                        <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="skill-list">
+                        <i class="fa-brands fa-bootstrap fa-2xl" style="color: #000000;"></i>
+                        <span>BOOTSTRAP</span>
+                    </div>
+                    <div class="skill-list">
+                        <i class="fa-brands fa-angular fa-2xl" style="color: #000000;"></i>
+                        <span>ANGULAR</span>
+                    </div>
+                    <div class="skill-list">
+                        <i class="fa-brands fa-database fa-2xl" style="color: #000000;"></i>
+                        <span>MY SQL</span>
+                    </div>
+                    <div class="skill-list">
+                        <i class="fa-brands fa-php fa-2xl" style="color: #000000;"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-list">
+                        <i class="fa-brands fa-wordpress fa-2xl" style="color: #000000;"></i>
+                        <span>WORDPRESS</span>
+                    </div>
+                    <div class="skill-list">
+                        <img src="images/photoshop icon.png" alt="">
+                        <span>PHOTOSHOP</span>
+                    </div>
+                    <div class="skill-list">
+                        <img src="images/ill icon.png" alt="">
+                        <span>ILLUSTRATOR</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="about-right-section">
+                <div class="about-heading">Experience</div>
+                <div class="about-descr">The roles I’ve held have been more than just jobs—they’ve been opportunities to
+                    learn, grow, and make an impact. Whether collaborating with teams or leading projects, I’ve
+                    consistently focused on achieving measurable results and exceeding expectations.</div>
+                <div class="experience-item-box">
+                    <div class="experience-list">
+                        <p class="year">1 Year</p>
+                        <h3>Branch Operation Assistant</h3>
+                        <p class="comapny">Inditrade Microfinance Limited</p>
+                        <p>Focus on the tasks you handled in your role. Be clear and concise.</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="service-section" id="servicepage">
+        <div class="service-section-res">
+            <div class="service-section-heading">Services</div>
+            <div class="service-section-container-box">
+                <div class="service-section-box-1">
+                    <div class="service-section-box-1-icon"><i class="fa-solid fa-code fa-2xl"></i></div>
+                    <div class="service-section-box-1-heading">Web-Development</div>
+                    <div class="service-section-box-1-content">High-quality development of sites at the professional
+                        level. dsfdfas</div>
+                    <div class="service-section-box-1-button"><button class="section-button">Read More <i
+                                class="fas fa-external-link-alt "></i></button></div>
+                </div>
+                <div class="service-section-box-1">
+                    <div class="service-section-box-1-icon"><i class="fa-solid fa-palette fa-2xl"></i></div>
+                    <div class="service-section-box-1-heading">Graphic Design</div>
+                    <div class="service-section-box-1-content">I make Crative & high-quality Gaphics of any category
+                        at a professional level.</div>
+                    <div class="service-section-box-1-button"><button class="section-button">Read More <i
+                                class="fas fa-external-link-alt"></i></button></div>
+                </div>
+                <div class="service-section-box-1">
+                    <div class="service-section-box-1-icon"><i class="fa-solid fa-compass-drafting fa-2xl"></i></div>
+                    <div class="service-section-box-1-heading">Responsive Design</div>
+                    <div class="service-section-box-1-content">The most modern and high-quality responsive design
+                        made at a professional level.</div>
+                    <div class="service-section-box-1-button"><button class="section-button">Read More <i
+                                class="fas fa-external-link-alt"></i></button></div>
+                </div>
+                <div class="service-section-box-1">
+                    <div class="service-section-box-1-icon"><i class="fa-solid fa-camera fa-2xl"></i></div>
+                    <div class="service-section-box-1-heading">Photogpahy</div>
+                    <div class="service-section-box-1-content">The most modern and high-quality design made at a
+                        professional level.</div>
+                    <div class="service-section-box-1-button"><button class="section-button">Read More <i
+                                class="fas fa-external-link-alt"></i></button></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="portfolio-section" id="portfoliopage">
+        <div class="portfolio-section-res">
+            <div class="portfolio-section-heading">My Portfolio</div>
+            <div class="portfolio-section-bar">
+                <div class="portfolio-section-bar-res">
+                    <button class="portfolio-btn active">All</button>
+                    <button class="portfolio-btn">Web-Development</button>
+                    <button class="portfolio-btn">Graphic Design</button>
+                </div>
+            </div>
+
+            <div class="portfolio-section-main-container active">
+                <div class="portfolio-section-all-container">
+                    <div class="portfolio-section-item">
+                        <img src="images/treekart banner.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Treekart.com</h3>
+                            <p>E-Commerce Plant website. The website coonects you to the different type of plants.</p>
+                            <a href="https://sudhirsharmainfo.github.io/Treekart/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/greenpower banner1.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Greenpower.com</h3>
+                            <p>Green power solar panel refers to an eco-friendly solar panel that is designed to
+                                maximize sustainability throughout its lifecycle.</p>
+                            <a href="https://sudhirsharmainfo.github.io/Greenpower/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/Realestate banner1.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>RealEstate.com</h3>
+                            <p>RealEstate provide you Well Renovated Kothi, wide road, nice and Peacefully Location.</p>
+                            <a href="https://sudhirsharmainfo.github.io/RealEstate/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/rentalcar banner.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Rentalcar.com</h3>
+                            <p>A rental car is a vehicle that individuals or businesses can rent for a temporary period,
+                                typically provided by Rentalcar.com</p>
+                            <a href="https://sudhirsharmainfo.github.io/Rentalcar/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/swiggy banner.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Swiggy Clone</h3>
+                            <p>A Swiggy clone website is an online food delivery platform that replicates the core
+                                features of Swiggy.</p>
+                            <a href="https://sudhirsharmainfo.github.io/Swiggyclone/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/All Social Media Post.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Post</h3>
+                            <p>All Social Media Post Design.</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/Markhind Desktop & Mobie UI Design.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Markhind</h3>
+                            <p>Markhind Desktop & Mobile UI Design</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/Accessories 5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping Website</h3>
+                            <p>The website coonects you to the talanted people around the world. Download it from
+                                play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="portfolio-section-main-container">
+                <div class="portfolio-section-all-container">
+                    <div class="portfolio-section-item">
+                        <img src="images/treekart banner.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Treekart.com</h3>
+                            <p>E-Commerce Plant website. The website coonects you to the different type of plants.</p>
+                            <a href="https://sudhirsharmainfo.github.io/Treekart/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/greenpower banner1.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Greenpower.com</h3>
+                            <p>Green power solar panel refers to an eco-friendly solar panel that is designed to
+                                maximize sustainability throughout its lifecycle.</p>
+                            <a href="https://sudhirsharmainfo.github.io/Greenpower/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/Realestate banner1.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>RealEstate.com</h3>
+                            <p>RealEstate provide you Well Renovated Kothi, wide road, nice and Peacefully Location.</p>
+                            <a href="https://sudhirsharmainfo.github.io/RealEstate/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/rentalcar banner.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Rentalcar.com</h3>
+                            <p>A rental car is a vehicle that individuals or businesses can rent for a temporary period,
+                                typically provided by Rentalcar.com</p>
+                            <a href="https://sudhirsharmainfo.github.io/Rentalcar/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/swiggy banner.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Swiggy Clone</h3>
+                            <p>A Swiggy clone website is an online food delivery platform that replicates the core
+                                features of Swiggy.</p>
+                            <a href="https://sudhirsharmainfo.github.io/Swiggyclone/" target="_blank"><i
+                                    class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="portfolio-section-main-container">
+                <div class="portfolio-section-all-container">
+                    <div class="portfolio-section-item">
+                        <img src="images/All Social Media Post.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Post</h3>
+                            <p>All Social Media Post</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-section-item">
+                        <img src="images/Markhind Desktop & Mobie UI Design.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Markhind</h3>
+                            <p>Markhind Desktop & Mobile UI Design</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-section-item">
+                        <img src="images/Bella vita post.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media Post</h3>
+                            <p>The website coonects you to the talanted people around the world. Download it from
+                                play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-section-item">
+                        <img src="images/Mobile ui design.jpg" alt="Error">
+                        <div class="layer">
+                            <h3>Markhind</h3>
+                            <p>Markhind Mobile UI Design</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-section-item">
+                        <img src="images/Accessories 5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping Website</h3>
+                            <p>The website coonects you to the talanted people around the world. Download it from
+                                play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/Accessories 5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping Website</h3>
+                            <p>The website coonects you to the talanted people around the world. Download it from
+                                play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/Accessories 5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping Website</h3>
+                            <p>The website coonects you to the talanted people around the world. Download it from
+                                play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-section-item">
+                        <img src="images/Accessories 5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping Website</h3>
+                            <p>The website coonects you to the talanted people around the world. Download it from
+                                play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="portfolio-section-more"><a href="#">See More <i class="fas fa-external-link-alt"
+                        style="color: #ffffff;"></i></a></div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Contact Section -->
+
+    <div class="contact-section" id="contactpage">
+        <div class="contact-section-res">
+            <h2 class="contact-section-heading">Contact Us</h2>
+            <div class="contact-section-container">
+                <div class="contact-left-section">
+                    <h2>Get in touch</h2>
+                    <div class="contact-details-phone">
+                        <a href="#"><i class="fa-solid fa-phone" style="color: #ffffff;"></i></a>
+                        <div class="contact-mini">
+                            <h3>Phone</h3>
+                            <p>+91-8750547481</p>
+                        </div>
+                    </div>
+                    <div class="contact-details-email">
+                        <a href="#"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a>
+                        <div class="contact-mini">
+                            <h3>Email</h3>
+                            <p>sudhirsharma1036@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-details-address">
+                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i></a>
+                        <div class="contact-mini">
+                            <h3>Address</h3>
+                            <p>Najafgarh, New Delhi-110043</p>
+                        </div>
+                    </div>
+                    <div class="contact-follow-us">FOLLOW ME :</div>
+                    <div class="contant-icons contactsectionicons">
+                        <div class="contant-icons-res">
+                            <a href="https://www.linkedin.com/in/sudhir-sharma-86733821a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BArGTlgFtS6Wy%2F0KE839ogg%3D%3D"
+                                class="icon-anchor" target="_blank">
+                                <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i></a>
+    
+                            <a href="" class="icon-anchor"><i class="fa-brands fa-square-behance fa-xl"
+                                    style="color: #000000;"></i></a>
+    
+                            <a href="" class="icon-anchor"><i class="fa-solid fa-envelope fa-xl"
+                                    style="color: #000000;"></i></a>
+    
+                            <a href="" class="icon-anchor"><i class="fa-brands fa-square-whatsapp fa-xl"
+                                    style="color: #000000;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contact-right-section">
+                    <div class="contact-right-section-res">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required
+                                class="yourname contactforminput">
+                            <input type="email" name="Email" placeholder="Your Email" required
+                                class="youremail contactforminput">
+                            <input type="text" name="Mobile No" placeholder="Your Mobile No." required
+                                class="yournumber contactforminput" maxlength="10">
+                            <textarea name="Message" id="" rows="6" placeholder="Your Message"
+                                class="yourmsg contactforminput"></textarea>
+                            <button type="submit" class="contact-submit">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="Main.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzc-8ZsW-tEA8rKxU2E31ctCB1pqMpB_K7eVaZ5MGVKKhVOZT_dQC1kVhJoQDDD7brkPg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "✔ Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
