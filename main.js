@@ -63,10 +63,10 @@ portfolioBtns.forEach((btn, idx) => {
 
 
 function mobilenav() {
-    document.getElementById("mobile-navbar-option-main").style.transform = "translateX(0%)";
+    document.getElementById("mobile-navbar-option-main").style.transform = "translateY(0%)";
     document.getElementById("mobile-navbar-option-main").style.transition = "transform 0.3s";
 }
 function mobileclose() {
-    document.getElementById("mobile-navbar-option-main").style.transform = "translateX(100%)";
+    document.getElementById("mobile-navbar-option-main").style.transform = "translateY(-100%)";
     document.getElementById("mobile-navbar-option-main").style.transition = "transform 0.3s";
 }
